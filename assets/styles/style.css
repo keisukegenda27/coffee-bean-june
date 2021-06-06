@@ -26,24 +26,28 @@ p,li{
 
 /* header area */
 .nav{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 85%;
     margin: 1em auto;
     overflow: auto;
 }
 .nav h1{
-    border: 2px dashed
-    black;
+    /* border: 2px dashed 
+     black; */
     float: left;
     text-transform: uppercase;
+   
 }
 .nav h1 a{
+     color: #96746b;
+}
+.nav h1 a:hover{
     text-decoration: none;
-    color: #96746b;
+    color: #19100f;
 }
 .nav ul{
-    border: 2px dashed
-    green;
+    /* border: 2px dashed 
+    green;*/
     float: right;
     margin-top: 1em;
     text-transform: capitalize;
@@ -57,9 +61,13 @@ p,li{
     font-weight: 700;
     text-decoration: none;
 }
+.nav ul li a{
+    text-decoration: none;
+    color: #312a26;
+}
 /* banner area */
 .banner{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 670px;
     background-image: url(../images/banner-bg.jpg);
     background-size: cover;
@@ -68,7 +76,7 @@ p,li{
     position: relative;
 }
 .banner-text{
-    border: 2px dashed white;
+    /* border: 2px dashed white; */
     position: absolute;
     left: 10%;
     top: 50%;
@@ -81,7 +89,7 @@ p,li{
     color: #c7a17a;
     text-transform: uppercase;
     font-size: 4em;
-    border: 2px dashed blue;
+    /* border: 2px dashed blue; */
 }
 .banner-text h2 span{
     color: #96746b;
@@ -103,13 +111,13 @@ p,li{
 }
 /* ads area 1 */
 .ads{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 85%;
     margin: 4em auto;
     overflow: auto;
 }
 .ads-items{
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
     height: 350px;
     float: left;
     width: 48.5%;
@@ -130,7 +138,7 @@ p,li{
     background-position: center center;
 }
 .ads-text{
-    border: 2px dashed green;
+    /* border: 2px dashed green; */
     position: absolute;
     left: 8%;
     top: 50%;
@@ -156,12 +164,12 @@ p,li{
 }
 /* merchandise sale */
 .merch{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 85%;
     margin: 4em auto;
 }
 .section-header{
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
     text-align: center;
 }
 .section-header span{
@@ -182,12 +190,12 @@ p,li{
     margin: auto;
 }
 .merch-gallery{
-    border:2px dashed black;
+    /* border:2px dashed black; */
     margin-top: 2em;
     overflow: auto;
 }
 .merch-items{
-    border: 2px dashed green;
+    /* border: 2px dashed green; */
     float: left;
     width: 24.25%;
     margin-right: 1%;
@@ -220,7 +228,7 @@ p,li{
 }
 /* discount area */
 .discount{
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
     background-image: url(../images/discount-img.jpg);
     height: 350px;
     background-repeat: no-repeat;
@@ -229,7 +237,7 @@ p,li{
     position: relative;
 }
 .discount-text{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     position: absolute;
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
@@ -294,19 +302,19 @@ p,li{
 }
 /* reservation area */
 div.reservation{
-    border : 2px solid red;
+    /* border : 2px solid red; */
     width: 85%;
     margin: 4em auto;
 
 }
 form{
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
     margin-top: 2em;
     overflow: auto;
 
 }
 .form-group{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     float: left;
     width: 49.5%;
     height: 600px;
@@ -400,7 +408,7 @@ form input[type=submit]{
     
 }
 .footer-contents{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 85%;
     margin: auto;
     overflow: auto;
@@ -408,7 +416,7 @@ form input[type=submit]{
     
 }
 .footer-widgets {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     float: left;
     width: 24.25%;
     font-family: 'Raleway', sans-serif;
@@ -447,12 +455,12 @@ form input[type=submit]{
 }
 /* footer area 2 */
 .footer-social{
-    border: 2px dashed blue;
+    /* border: 2px dashed blue; */
     background-color: #19100F;
     overflow: auto;
 }
 .social-widgets{
-    border: 2px dashed yellow;
+    /* border: 2px dashed yellow; */
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
     width: 33%;
