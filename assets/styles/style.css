@@ -470,3 +470,38 @@ form input[type=submit]{
     margin-top: 3px;
     
 }
+/* responsive design code */
+/* 
+max-width =if the screen size reach to 0-768px apply this code(tablet or smartphone)
+*/
+@media screen and (max-width:768px){
+    .ads-items{
+        float: none;
+        width: 100%;
+    }
+    .ads-item1{
+        margin-bottom: 3%;
+    }
+    .merch-items{
+        float: left;
+        width: 49.5%;
+    }
+    .merch-items:nth-child(2),.merch-items:nth-child(6){
+        margin-right: 0%;
+    }
+    .form-group{
+        float: none;
+        width: 100%;
+
+    }
+    .form-group:nth-child(1){
+        margin-bottom: 1em;
+    }
+    .footer-widgets{
+        float: left;
+        width: 49.5%;
+    }
+    .footer-widgets:nth-child(2),.footer-widgets:nth-child(4){
+        margin-right: 0;
+    }
+}
